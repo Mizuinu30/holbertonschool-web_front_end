@@ -49,6 +49,7 @@ a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
+
 a[href]:visited {
     font-style: italic; /* Italicize the text for visited links */
 }
@@ -60,11 +61,13 @@ a[href]:hover {
 a[href]:active {
     background-color: var(--color-light-grey); /* Set background color for active links */
 }
-section-header {
+
+
+.section-header {
     text-align: var(--section-header-align);
 }
 
-section-title {
+.section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
@@ -72,13 +75,13 @@ section-title {
     color: var(--section-title-color); /* Apply text color */
 }
 
-section-tagline {
+.section-tagline {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
 
-card-category,
-section-tagline {
+.card-category,
+.section-tagline {
     color: var(--color-primary);
 }
