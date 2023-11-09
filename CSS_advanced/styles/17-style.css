@@ -212,6 +212,14 @@ a:active {
     background-color:var(--color-light-grey);
 }
 
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color:var(--color-primary);
+}
+
 .section {
     padding:var(--section-padding);
 }
@@ -219,6 +227,15 @@ a:active {
 .section-header {
     text-align: var(--section-header-align);
     padding:var(--section-header-padding);
+}
+
+.section-body {
+    padding:var(--section-body-padding);
+}
+
+.section-footer {
+    padding:var(--section-footer-padding);
+    text-align:var(--section-footer-align);
 }
 
 .section-title {
@@ -230,6 +247,7 @@ a:active {
 }
 
 .section-tagline {
+    color:var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
