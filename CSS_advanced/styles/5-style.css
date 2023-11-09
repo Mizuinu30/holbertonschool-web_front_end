@@ -14,9 +14,7 @@
     --font-size-xx-large: 4.8rem;
     }
 
-    html {
-        font-size: 62.5%
-    }
+
 
     body {
         color: var(--text-color);
@@ -36,3 +34,6 @@
         color: var(--color-primary);
     }
 
+    html {
+            font-size: 62.5%;
+        }
