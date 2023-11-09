@@ -1,1 +1,3 @@
-scroll-behavior: auto|smooth|initial|inherit;
+html {
+    scroll-behavior: smooth;
+  }
