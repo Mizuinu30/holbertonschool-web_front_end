@@ -24,8 +24,8 @@
 
     --section-header-align: center;
     --section-tagline-transform: uppercase;
-    --section-title-margin: 0;
-    --section-title-color: var(--color-black)
+    --section-title-margin: 0; /* New custom property for section title margin */
+    --section-title-color: var(--color-black); /* New custom property for section title text color */
 }
 
 html {
@@ -50,22 +50,25 @@ a {
     text-decoration: none;
 }
 
-section-header {
+.section-header {
     text-align: var(--section-header-align);
 }
 
-section-title {
+.section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
-    margin: var(--section-title-margin);
-    color: var(--section-title-color);
+    margin: var(--section-title-margin); /* Apply margin */
+    color: var(--section-title-color); /* Apply text color */
 }
 
-card-category,
-section-tagline {
-    color: var(--color-primary);
+.section-tagline {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+}
+
+.card-category,
+.section-tagline {
+    color: var(--color-primary);
 }
