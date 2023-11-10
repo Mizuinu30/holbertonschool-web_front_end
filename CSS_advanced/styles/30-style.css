@@ -513,3 +513,15 @@ a:active {
     opacity: 1;
 }
 
+
+.card-work a {
+    display: block;
+    text-decoration: none;
+    padding-top: 45%;
+}
+
+.card-work::after a {
+    position: absolute;
+    position: 0 0 0 0;
+    content: "";
+}
