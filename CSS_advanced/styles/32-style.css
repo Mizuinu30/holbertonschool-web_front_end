@@ -197,10 +197,14 @@ template {
     transition:var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work .card-outer {
-    transform: (0.95);
+.card-work:hover .card-oute r {
+    transform: scale(0.95);
 }
 
+.card-work .card-outer {
+    position: relative;
+    overflow: hidden;
+}
 .header {
     padding:var(--header-padding);
 }
