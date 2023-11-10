@@ -273,6 +273,11 @@ template {
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    color:var(--nav-item-link-hover);
+}
+
+.nav .nav-link:hover {
+        color:var(--nav-item-link-hover);
 }
 
 nav .nav-link::before {
@@ -282,7 +287,7 @@ nav .nav-link::before {
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -290,9 +295,7 @@ nav .nav-link::before {
     width: 100%;
 }
 
-.nav .nav-link:hover {
-        color:var(--nav-item-link-hover);
-}
+
 
 *,
 *::before,
