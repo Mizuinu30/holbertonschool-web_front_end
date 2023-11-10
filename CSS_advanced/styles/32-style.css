@@ -199,7 +199,6 @@ template {
 
 .card-work:hover .card-outer {
     transform: (0.95);
-    transform: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .header {
