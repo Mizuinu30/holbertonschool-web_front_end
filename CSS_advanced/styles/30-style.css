@@ -512,3 +512,9 @@ a:active {
 .card-work:hover .card-title {
     opacity: 1;
 }
+
+.card-work::after a {
+    position: absolute;
+    position: 0 0 0 0;
+    content: "";
+}
