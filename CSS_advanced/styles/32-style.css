@@ -194,19 +194,14 @@ template {
 
 .card-work:hover .card-image{
     transform: scale(1.2);
+    transition:var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
     transform: (0.95);
-}
-
-.card-work:hover .card-image {
     transform: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work:hover .card-outer {
-    transform: var(--transition-duration) var(--transition-cubic-bezier);
-}
 .header {
     padding:var(--header-padding);
 }
