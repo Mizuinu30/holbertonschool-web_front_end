@@ -429,6 +429,7 @@ a:active {
 .card-work .card-outer {
     position: relative;
     overflow: hidden;
+    transform: scale(0.95);
 }
 
 .card-work .card-image img {
